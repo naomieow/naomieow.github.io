@@ -386,7 +386,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project {
     margin: 80px 0;
     position: relative;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.project .container {
+    padding-top: 1em;
 }
 
 .project h2 {
